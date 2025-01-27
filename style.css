@@ -1,4 +1,47 @@
-body{
+body {
     background-color: black;
     color: white;
+    overflow: invisible;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/img/FrontPhoto.jpg");
+    height: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+img {
+    /* width: 500px; */
+    height: auto;
+    width: 100%;
+}
+#kaart img {
+    width: 100%;       /* Laat de afbeelding de breedte van de container vullen */
+    height: auto;      /* Houdt de aspectratio intact */
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding goed wordt geschaald */
+    border-radius: 8px; /* Maakt de hoeken een beetje afgerond voor een mooi effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Voegt een zachte schaduw toe */
+  }
+
+  
+.nav-link {
+    color: #212529; /* Standaard tekstkleur */
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #0d6efd; /* Blauwe tekst bij hover */
+}
+/* 
+.navbar-nav{
+    background-color: lightgray;
+} */
+
+.nav-item{
+    background-color: lightgray ;
+    padding: 5px;
+    border: 2px color blue;
 }
